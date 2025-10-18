@@ -100,6 +100,7 @@
 #include <linux/cn_proc.h>
 #include <linux/cpufreq_times.h>
 #include <linux/dma-buf.h>
+#include <linux/susfs_def.h>
 #include <trace/events/oom.h>
 #include <trace/hooks/sched.h>
 #include "internal.h"
