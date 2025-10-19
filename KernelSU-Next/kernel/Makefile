@@ -22,7 +22,7 @@ $(info -- KernelSU-Next tag: $(KSU_VERSION_TAG))
 ccflags-y += -DKSU_VERSION_TAG=\"$(KSU_VERSION_TAG)\"
 else
 $(warning "KSU_VERSION_TAG not defined! It is better to make KernelSU-Next a git submodule!")
-ccflags-y += -DKSU_VERSION_TAG=\"v0.0.0\"
+ccflags-y += -DKSU_VERSION_TAG=\"v1.1.1-29-ge11cab38\"
 endif
 
 # .git is a text file while the module is imported by 'git submodule add'.
